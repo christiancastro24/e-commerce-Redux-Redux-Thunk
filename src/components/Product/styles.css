@@ -1,0 +1,51 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-products {
+    display: flex;
+    margin: 1rem;
+    width: 99%;
+}
+
+
+.products {
+    background-color: #f9f9f9;
+    border: 2px solid #c9c5c5;
+    width: 16rem;
+    padding: 0.9rem;
+    text-align: left;
+}
+
+.products img {
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.payButton button {
+    border: none;
+    background-color: rgb(159, 112, 201);
+    color: #fff;
+    width: 15rem;
+    height: 2.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3.5px;
+    text-align: center;
+    display: block;
+    margin: -1.5rem auto;
+}
+
+.througt {
+    text-decoration: line-through;
+    font-weight: 450;
+}
+
+button:hover {
+    filter: brightness(90%);
+}

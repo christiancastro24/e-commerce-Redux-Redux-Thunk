@@ -1,0 +1,49 @@
+.container-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    background-color: #f9f9f9;
+    border: 2px solid #c9c5c5;
+    padding: 0.5rem;
+    width: 14rem;
+    margin-right: 4rem;
+    height: 15rem;
+    margin-top: 4rem;
+    text-align: left;
+}
+
+.total button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.total h4 {
+    font-size: 2rem;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-flex .cartAlone {
+    margin: 1rem;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .container-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .total {
+        margin: 0 auto;
+    }
+
+    .container-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}

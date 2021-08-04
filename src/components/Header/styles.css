@@ -1,0 +1,56 @@
+nav {
+    background-color: #0f1111;
+    height: 70px;
+    width: 100%;
+    color: #fff;
+}
+
+nav a:hover {
+    filter: brightness(90%);
+}
+
+.container-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+
+.container-cart button {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.styleNavSpan {
+    background-color: red;
+    height: 20px;
+    width: 35px; 
+    margin-left: 10px; 
+    border-radius: 100%; 
+    color: #fff;
+}
+
+.container-cart h1 {
+    padding-left: 3rem;
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 300px) and (max-width: 768px){
+    .styleButtonNav {
+        width: 13rem;
+        padding: 0.5rem;
+    }
+
+    .styleNavSpan {
+        padding: 0.15rem;
+    }
+
+    .container-cart button {
+        margin-top: -0.5rem;
+    }
+
+    .container-cart h1 {
+        padding-left: 3rem;
+        margin-top: 0.2rem;
+    }
+}
